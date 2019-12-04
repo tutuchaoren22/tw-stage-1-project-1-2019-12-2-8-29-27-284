@@ -1,20 +1,202 @@
+* {
+    margin：0;
+    padding： 0;
+}
+
 body {
     background-color: black;
     width: 95%;
     margin: auto;
+    font-family: 'Sunflower', sans-serif;
 }
 
 .header {
-    background: url('素材/starfield-banner.jpg ');
+    display: flex;
     position: fixed;
+    top: 0;
+    background-image: url('./images/starfield-banner.jpg');
     width: 95%;
-}
-
-.header .logo-link {
-    padding: 10px;
+    height: 120px;
 }
 
 .header .logo {
-    width:110px;
-    margin:11px;
+    width: 110px;
+    margin: 11px 11px 0 11px;
+   
+}
+.header .logo-img {
+    width: 100%;
+}
+
+.header .menu {
+    width: 80%;
+    margin: 11px;
+}
+
+.menu-top {
+    height: 50px;
+    background-color: transparent;
+    margin: 0;
+    font-size: 20px;
+}
+.menu-top-list {
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+    margin: 0 auto;
+}
+.header li {
+    display: inline;
+    position: relative;
+    margin: 0 5px 0 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-bottom {
+    height: 50px;
+    background-color: gray;
+    font-size: 13px;
+}
+.menu-bottom-list {
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*---------search--------*/
+
+.header .search {
+    width: 250px;
+    margin: 11px;
+    background-color: transparent;
+}
+.search input {
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.459);
+    border: none;
+}
+
+.icon {
+    width: 40px;
+}
+.icon-search {
+    position: absolute;
+    right: 105px;
+
+}
+.icon-share {
+    position: absolute;
+    top: 12px;
+}
+
+.content {
+    width: 95%;
+    height: 1300px;
+    margin-top: 120px;
+    background-color: red;
+}
+
+.content-1 {
+    height: 600px;
+    margin: 10px;
+    background-color: green;
+}
+
+.content-1-left {
+    float: left;
+    width: 49%;
+    height: 600px;
+    margin-right: 1%;
+    background-image: url('./images/pia21924-16.jpg');
+}
+.detail {
+    position: absolutes;
+    top:20px;
+    left:5px;
+    width: 100%;
+}
+.detail1 {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    background-color: rgb(87, 111, 157, 0.7);
+
+}
+.detail2 {  
+    padding: 5px;
+    background-color: rgba(209, 209, 209, 0.726);
+}
+
+
+
+.content-1-right {
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-color: orange; 
+}
+
+.content-1-right-up {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 0, 157); 
+}
+.content-climate {
+    float: left;
+    width:50%;
+    height: 300px;
+    background-size: cover;
+    background-image: url('./images/mollweide_cycle.jpg');
+}
+.content-nasaevents {
+    float: right;
+    width:50%;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(69,112, 154); 
+
+}
+.nasaevents-title {
+    height: 15px;
+    margin: 5px;
+    border-bottom: 1px solid white;
+}
+.nasaevents-content {
+    height: 235px;
+    
+}
+.nasaevents-footer {
+    height: 30px;
+    margin: 5px;
+    border-top: 1px solid white;
+}
+.nasaevents-footer span {
+    padding:1px 5px;
+}
+.content-launch {
+    width: 100%;
+    height: 290px;
+    margin-top: 10px;
+    background-size: cover;
+    background-image: url('./images/s69-39961.jpg');
+}
+
+.content-2 {
+    height: 300px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.content-3 {
+    height: 300px;
+    margin: 10px;
+    background-color: yellow;
 }
