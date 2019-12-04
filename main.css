@@ -228,7 +228,7 @@ a {
 .icon-camera {
     position: absolute;
     top: 10px;
-    left: 230px;
+    right: 10px;
 }
 .content-2-center {
     position: relative;
